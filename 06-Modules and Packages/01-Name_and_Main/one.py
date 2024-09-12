@@ -4,6 +4,6 @@ def func():
 print("top-level print inside of one.py")
 
 if __name__ == "__main__":
-    print("one.py is being run directly")
+    print("one.py is being run directly here")
 else:
     print("one.py is being imported into another module")
